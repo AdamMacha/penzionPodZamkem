@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
   title: 'Penzion Pod Zámkem Průhonice',
-  description: 'Luxusní ubytování v Průhonicích',
+  description: 'Ubytování v malebných Průhonicích kousek od Prahy. Nabízíme ubytování v klidném prostředí s výhledem na zámek a zámecký park.',
 };
 
 export default function RootLayout({
