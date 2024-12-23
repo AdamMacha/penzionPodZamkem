@@ -12,7 +12,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center text-2xl font-bold text-primary">
-            <Building className="w-8 h-8 text-blue-500 mr-2" />
+            <Building className="w-8 h-8 text-amber-800 mr-2" />
             Penzion Pod Zámkem
           </Link>
           <div className="hidden md:flex space-x-8">

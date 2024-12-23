@@ -49,6 +49,26 @@ export default function Home() {
         </div>
       </section>
 
+            {/* About Section */}
+            <section className="py-20 bg-gray-50">
+        <div className="container mx-auto px-4">
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.8 }}
+            className="max-w-4xl mx-auto text-center"
+          >
+            <h2 className="text-3xl md:text-4xl font-bold mb-8">O nás</h2>
+            <p className="text-lg leading-relaxed mb-6">
+              Pobyt v našem penzionu využijí Ti, kteří si chtějí užít klidnou dovolenou v bezprostřední blízkosti známého průhonického parku, který je na seznamu UNESCA nebo chtějí navštívit AQUAPALACE ČESTLICE, patřící mezi největší aquaparky v Evropě. Nachází se cca 1 km od penzionu.
+            </p>
+            <p className="text-lg leading-relaxed mb-6">
+              Poloha penzionu je vhodná pro hosty, kteří chtějí poznat krásy hlavního města, nebo strávit v Praze několik pracovních dnů.
+            </p>
+          </motion.div>
+        </div>
+      </section>
+
       {/* Features Section */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-4">
@@ -60,7 +80,7 @@ export default function Home() {
               className="flex flex-col items-center text-center p-6 bg-gray-50 rounded-lg"
             >
               <Car className="w-12 h-12 text-primary mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Zdarma parkování</h3>
+              <h3 className="text-xl font-semibold mb-2">Parkování zdarma</h3>
               <p>Parkování přímo u penzionu zdarma pro ubytované hosty</p>
             </motion.div>
 
@@ -86,26 +106,6 @@ export default function Home() {
               <p>Pro naše hosty je k dispozici kávovar</p>
             </motion.div>
           </div>
-        </div>
-      </section>
-
-      {/* About Section */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <motion.div 
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.8 }}
-            className="max-w-4xl mx-auto text-center"
-          >
-            <h2 className="text-3xl md:text-4xl font-bold mb-8">O nás</h2>
-            <p className="text-lg leading-relaxed mb-6">
-              Pobyt v našem penzionu využijí Ti, kteří si chtějí užít klidnou dovolenou v bezprostřední blízkosti známého průhonického parku, který je na seznamu UNESCA nebo chtějí navštívit AQUAPALACE ČESTLICE, patřící mezi největší aquaparky v Evropě. Nachází se cca 1 km od penzionu.
-            </p>
-            <p className="text-lg leading-relaxed mb-6">
-              Poloha penzionu je vhodná pro hosty, kteří chtějí poznat krásy hlavního města, nebo strávit v Praze několik pracovních dnů.
-            </p>
-          </motion.div>
         </div>
       </section>
 
