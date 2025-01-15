@@ -12,12 +12,14 @@ export default function Home() {
       <section className="relative h-screen">
         <div className="absolute inset-0">
           <Image
-            src="penzion6.jpg"
+
+            src="penzion1.jpg"
             alt="Penzion Pod Zámkem"
             className="object-cover w-full h-full object-bottom"
-            layout="fill"
+            fill={true}
+            objectFit="fill"
           />
-          <div className="absolute inset-0 bg-black/50" />
+          <div className="absolute inset-0 bg-black/10" />
         </div>
         
         <div className="relative z-10 container mx-auto px-4 h-full flex flex-col justify-center items-center text-white">
@@ -63,7 +65,7 @@ export default function Home() {
               Pobyt v našem penzionu využijí Ti, kteří si chtějí užít klidnou dovolenou v bezprostřední blízkosti známého průhonického parku, který je na seznamu UNESCA nebo chtějí navštívit AQUAPALACE ČESTLICE, patřící mezi největší aquaparky v Evropě. Nachází se cca 1 km od penzionu.
             </p>
             <p className="text-lg leading-relaxed mb-6">
-              Poloha penzionu je vhodná pro hosty, kteří chtějí poznat krásy hlavního města, nebo strávit v Praze několik pracovních dnů.
+              Poloha penzionu je vhodná pro hosty, kteří chtějí poznat krásy hlavního města, nebo strávit v Praze několik pracovních dnů. Penzion se nachází na okraji Prahy a v centru města jste do pár minut.
             </p>
           </motion.div>
         </div>

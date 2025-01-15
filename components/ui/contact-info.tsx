@@ -8,8 +8,8 @@ const contactItems = [
     icon: MapPin,
     content: (
       <>
-        <p className="font-medium">HLAVNÍ 37</p>
-        <p>252 43 PRŮHONICE</p>
+        <p className="font-medium">Hlavní 37</p>
+        <p>252 43 Průhonice</p>
       </>
     ),
   },
@@ -24,17 +24,11 @@ const contactItems = [
   {
     icon: Mail,
     content: (
-      <a href="mailto:JANOVSKYROMAN@SEZNAM.CZ" className="hover:text-primary transition-colors uppercase">
-        JANOVSKYROMAN@SEZNAM.CZ
+      <a href="mailto:JANOVSKYROMAN@SEZNAM.CZ" className="hover:text-primary transition-colors">
+        janovskyroman@seznam.cz
       </a>
     ),
-  },
-  {
-    icon: Clock,
-    content: (
-      <p>Recepce otevřena denně: 8:00 - 20:00</p>
-    ),
-  },
+  }
 ];
 
 export function ContactInfo() {
@@ -53,7 +47,7 @@ export function ContactInfo() {
         PENZION POD ZÁMKEM
       </motion.h2>
       
-      <div className="space-y-6">
+      <div className="space-y-10">
         {contactItems.map((item, index) => (
           <motion.div
             key={index}

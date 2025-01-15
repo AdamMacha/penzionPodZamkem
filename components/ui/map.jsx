@@ -19,7 +19,6 @@ export function Map() {
         allowFullScreen
         loading="lazy"
         referrerPolicy="no-referrer-when-allowed"
-        className="grayscale hover:grayscale-0 transition-all duration-300"
       />
     </motion.div>
   );

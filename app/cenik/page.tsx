@@ -6,8 +6,8 @@ import { ContactSection } from "@/components/ui/contact-section";
 import { ImageSection } from "@/components/ui/image-section";
 
 const prices = [
-  { title: "Jednolůžkový pokoj", price: 900 },
-  { title: "Dvoulůžkový pokoj", price: 1200 },
+  { title: "Jednolůžkový pokoj", price: 1000 },
+  { title: "Dvoulůžkový pokoj", price: 1300 },
   { title: "Třílůžkový pokoj", price: 1600 },
   { title: "Čtyřlůžkový pokoj", price: 2000 },
   { title: "Pětilůžkový pokoj", price: 2400 },

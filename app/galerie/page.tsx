@@ -14,6 +14,14 @@ const images = [
   "penzion9.jpg",
   "penzion10.jpg",
   "penzion11.jpg",
+  "penzion12.jpg",
+  "penzion13.jpg",
+  "penzion14.jpg",
+  "penzion15.jpg",
+  "penzion16.jpg",
+  "penzion17.jpg",
+  "penzion18.jpg",
+  "penzion19.jpg",
 ];
 
 export default function Gallery() {
