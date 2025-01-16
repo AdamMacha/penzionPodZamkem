@@ -29,8 +29,8 @@ export default function RootLayout({
                 <h3 className="text-lg font-semibold mb-4">Kontakt</h3>
                 <p>Hlavní 37</p>
                 <p>Průhonice</p>
-                <p>tel.: 608 850 040</p>
-                <p>e-mail: janovskyroman@seznam.cz</p>
+                <p>tel.: +420 608 028 801</p>
+                <p>e-mail: KristynaJanovska@seznam.cz</p>
               </div>
               <div>
                 <h3 className="text-lg font-semibold mb-4">Navigace</h3>
