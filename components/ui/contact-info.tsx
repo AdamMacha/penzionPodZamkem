@@ -24,8 +24,8 @@ const contactItems = [
   {
     icon: Mail,
     content: (
-      <a href="mailto:JANOVSKYROMAN@SEZNAM.CZ" className="hover:text-primary transition-colors">
-        janovskyroman@seznam.cz
+      <a href="mailto:KristynaJanovska@seznam.cz" className="hover:text-primary transition-colors">
+        KristynaJanovska@seznam.cz
       </a>
     ),
   }
