@@ -1,11 +1,21 @@
 import './globals.css';
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Inter, Playfair_Display, Raleway } from 'next/font/google';
 import Link from 'next/link';
 import { Home, Image, Landmark, Receipt, Phone, Building } from 'lucide-react';
 import Navbar from '@/components/ui/comp/navbar';
 
 const inter = Inter({ subsets: ['latin'] });
+
+const playfair = Playfair_Display({
+  subsets: ['latin'],
+  variable: '--font-playfair',
+});
+
+const raleway = Raleway({
+  subsets: ['latin'],
+  variable: '--font-raleway',
+});
 
 export const metadata: Metadata = {
   title: 'Penzion Pod Zámkem Průhonice',
@@ -18,7 +28,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="cs">
+    <html lang="cs" className={`${playfair.variable} ${raleway.variable}`}>
       <body className="font-sans antialiased">
         <Navbar />
         <main>{children}</main>

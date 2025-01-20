@@ -9,15 +9,23 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-screen">
+      <section className="relative h-[90vh] md:h-[75vh]">
         <div className="absolute inset-0">
           <Image
-
             src="penzion1.jpg"
             alt="Penzion Pod Zámkem"
-            className="object-cover w-full h-full object-bottom"
+            className="object-cover w-full h-full object-center hidden md:block"
             fill={true}
-            objectFit="fill"
+            priority
+            quality={100}
+          />
+          <Image
+            src="penzion1M.jpg"
+            alt="Penzion Pod Zámkem"
+            className="object-cover w-full h-full object-center md:hidden"
+            fill={true}
+            priority
+            quality={100}
           />
           <div className="absolute inset-0 bg-black/10" />
         </div>
@@ -27,7 +35,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
-            className="text-5xl md:text-7xl font-bold text-center mb-6"
+            className="font-playfair text-3xl sm:text-4xl md:text-7xl font-bold text-center mb-4 md:mb-6 px-4"
           >
             Penzion Pod Zámkem
           </motion.h1>
@@ -35,7 +43,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.2 }}
-            className="text-xl md:text-2xl text-center max-w-3xl"
+            className="font-raleway text-lg md:text-2xl text-center max-w-3xl px-2 md:px-0"
           >
             Vítáme Vás v Penzionu Pod Zámkem v Průhonicích
           </motion.p>
@@ -46,7 +54,7 @@ export default function Home() {
             transition={{ repeat: Infinity, duration: 1.5 }}
           >
             <ChevronDown className="w-8 h-8" />
-            <span className="mt-2">Potáhněte dolů</span>
+            <span className="mt-2 text-sm md:text-base">Potáhněte dolů</span>
           </motion.div>
         </div>
       </section>
@@ -128,8 +136,8 @@ export default function Home() {
                   <MapPin className="w-5 h-5" />
                   Hlavní 37, Průhonice
                 </p>
-                <p className="mb-4">tel.: 608 850 040</p>
-                <p>e-mail: janovskyroman@seznam.cz</p>
+                <p className="mb-4">tel.: +420 608 028 801</p>
+                <p>e-mail: KristynaJanovska@seznam.cz</p>
               </div>
               <div className="flex-1">
                 <Link 

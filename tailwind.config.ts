@@ -61,6 +61,10 @@ const config: Config = {
           '5': 'hsl(var(--chart-5))',
         },
       },
+      fontFamily: {
+        playfair: ['var(--font-playfair)'],
+        raleway: ['var(--font-raleway)'],
+      },
       keyframes: {
         'accordion-down': {
           from: {
