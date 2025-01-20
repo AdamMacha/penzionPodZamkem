@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <main className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative h-[90vh] md:h-[75vh]">
+      <section className="relative h-screen bg-gray-900 text-white">
         <div className="absolute inset-0">
           <Image
             src="penzion1.jpg"
