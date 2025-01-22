@@ -22,6 +22,8 @@ const images = [
   "penzion17.jpg",
   "penzion18.jpg",
   "penzion19.jpg",
+  "penzion20.jpg",
+  "penzion21.jpg",
 ];
 
 export default function Gallery() {
