@@ -137,7 +137,7 @@ export default function Home() {
                   Hlavní 37, Průhonice
                 </p>
                 <p className="mb-4">tel.: +420 608 028 801</p>
-                <p>e-mail: KristynaJanovska@seznam.cz</p>
+                <p>e-mail: kristynajanovska@seznam.cz</p>
               </div>
               <div className="flex-1">
                 <Link 

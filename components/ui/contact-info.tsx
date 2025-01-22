@@ -25,7 +25,7 @@ const contactItems = [
     icon: Mail,
     content: (
       <a href="mailto:KristynaJanovska@seznam.cz" className="hover:text-primary transition-colors">
-        KristynaJanovska@seznam.cz
+        kristynajanovska@seznam.cz
       </a>
     ),
   }

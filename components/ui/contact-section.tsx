@@ -15,7 +15,7 @@ export function ContactSection() {
           <div>
             <p className="font-medium">E-mail</p>
             <a href="mailto:KristynaJanovska@seznam.cz" className="text-primary hover:underline">
-            KristynaJanovska@seznam.cz
+            kristynajanovska@seznam.cz
             </a>
           </div>
         </div>
