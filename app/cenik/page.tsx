@@ -50,7 +50,7 @@ export default function Pricing() {
         whileInView={{ opacity: 1 }}
         className="text-center text-gray-600 italic"
       >
-        *Ceny jsou uvedeny VČETNĚ 10 % SAZBY DPH
+        *Ceny jsou uvedeny VČETNĚ 12% SAZBY DPH
       </motion.p>
 
       <ImageSection />
